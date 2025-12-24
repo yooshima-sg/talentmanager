@@ -1,10 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import "./globals.css";
 import { Navigation } from "@/components/navigation";
+import { APPCODENAME, APPDESCRIPTION, APPNAME } from "@/lib/const";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "NextJSテンプレート",
-  description: "NextJSテンプレート",
+  title: `${APPCODENAME} - ${APPNAME}`,
+  description: APPDESCRIPTION,
 };
 
 export const viewport: Viewport = {

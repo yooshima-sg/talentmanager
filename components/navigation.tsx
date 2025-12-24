@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { authClient } from "@/lib/auth-client";
+import { APPNAME } from "@/lib/const";
 import { cn } from "@/lib/css/utils";
 
 const navItems = [
@@ -36,7 +37,7 @@ export function Navigation() {
             <div className="flex items-center gap-2 mr-8">
               <Package className="h-6 w-6" />
               <span className="font-bold text-xl hidden md:inline">
-                資産管理システム
+                {APPNAME}
               </span>
             </div>
             <div className="flex gap-1">

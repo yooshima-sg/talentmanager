@@ -1,0 +1,10 @@
+{
+  "editor.defaultFormatter": "biomejs.biome",
+  //"biome.configurationPath": "${workspaceFolder}/biome.json",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  }
+}

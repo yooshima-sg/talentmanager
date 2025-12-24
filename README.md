@@ -37,3 +37,7 @@ bun dev
   - `css/utils.ts` - Tailwind `cn()` utility
 - `components/` - React components
   - `ui/` - shadcn/ui components
+
+### Documents
+
+Documents in docs folder are available.

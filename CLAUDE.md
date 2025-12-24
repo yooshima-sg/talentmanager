@@ -64,3 +64,8 @@ This is a Next.js 16 template with App Router, TypeScript, and PostgreSQL.
 Required in `.env`:
 
 - `DATABASE_URL` - PostgreSQL connection string
+
+### Other System Documents
+
+the documents for this system in located in the ./docs folder.
+AI agents must read this documents.

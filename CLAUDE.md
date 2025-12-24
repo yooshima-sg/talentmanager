@@ -25,6 +25,7 @@ bun run db:migrate    # Run Drizzle migrations
 This is a Next.js 16 template with App Router, TypeScript, and PostgreSQL.
 
 ### Tech Stack
+
 - **Framework**: Next.js 16 with App Router
 - **Styling**: Tailwind CSS v4 + shadcn/ui (new-york style)
 - **Database**: PostgreSQL with Drizzle ORM
@@ -61,4 +62,5 @@ This is a Next.js 16 template with App Router, TypeScript, and PostgreSQL.
 ### Environment Variables
 
 Required in `.env`:
+
 - `DATABASE_URL` - PostgreSQL connection string

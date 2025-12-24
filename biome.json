@@ -29,7 +29,7 @@
   },
   "css": {
     "parser": {
-      "tailwindDirectives": null
+      "tailwindDirectives": true
     }
   },
   "assist": {

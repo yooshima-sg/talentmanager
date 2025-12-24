@@ -1,10 +1,12 @@
-## ORM lLibrary
+# Database
+
+## ORM Library
 
 - Drizzle ORM
 
 ## Commands
 
-``` bash
+```bash
 # Generate SQL
 bunx drizzle-kit generate
 
